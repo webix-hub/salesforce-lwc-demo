@@ -1,0 +1,41 @@
+.persons_list{
+    background: transparent;
+}
+.persons_list .webix_list_item {
+    background: white;
+    margin-right: 20px;
+    border-left: 4px solid #59baff;
+}
+.persons_list .webix_list_item.webix_selected {
+    background: #def7ff;
+    border-left: 4px solid #59baff;
+}
+
+.webix_dtable_colrow{
+    background-color: #def7ff !important;
+    font-weight: 500;
+}
+
+.wbx_name {
+    font-weight: 500;
+}
+.wbx_tag {
+    padding: 4px 10px;
+    margin-right: 10px;
+    background: #d0d0d0;
+    border-radius: 6px;
+    color: #696969;
+}
+
+.wbx_info_template .wbx_name{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.wbx_info_template .wbx_photo{
+    margin: 40px 0 0 90px;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    background-color: #666;
+}

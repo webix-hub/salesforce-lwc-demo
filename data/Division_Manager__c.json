@@ -1,0 +1,26 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Division_Manager__c",
+                "referenceId": "Division_Manager__cRef1"
+            },
+            "Name": "Abigale Lee",
+            "Country__c": "United States",
+            "Tags__c": "Software;US",
+            "Status__c": "Active",
+            "Stats_Data__c": "{ \"data\":[\n    {\n        \"$row\": \"info\",\n        \"title\": \"Finance and transactions\",\n        \"open\": true,\n        \"info\": [],\n        \"data\": [\n        {\n            \"name\": \"Orders value\",\n            \"info\": [2409, 3670, 3345, 1450, 2334, 6000]\n        },\n        {\n            \"name\": \"Operational Exp.\",\n            \"info\": [0.07, 0.03, 0.05, 0.25, 0.04, 0.012]\n        },\n        {\n            \"name\": \"Cashback value.\",\n            \"info\": [240, 367, 335, 145, 233, 600]\n        }\n        ]\n    },\n    {\n        \"$row\": \"info\",\n        \"title\": \"Aggregated data\",\n        \"open\": true,\n        \"info\": [],\n        \"data\": [\n        {\n            \"name\": \"Mid. Market value\",\n            \"info\": [6.5687, 4.7896, 5.2656, 6.5687, 7.5687, 8.5687],\n            \"plus\": \"+ 0.78%\"\n        },\n        {\n            \"name\": \"Market growth\",\n            \"info\": [0.005, -0.001, 0.001, -0.015, -0.107, -0.095],\n            \"minus\": \"- 0.057\"\n        }\n        ]\n    },\n    {\n        \"$row\": \"info\",\n        \"title\": \"Tax and Fees\",\n        \"open\": true,\n        \"info\": [],\n        \"data\": [\n        {\n            \"name\": \"Tax value\",\n            \"info\": [45, 32, 22, 1450, 2334, 6000],\n            \"title\": \" \"\n        },\n        { \"name\": \"Bank fee\", \"info\": [3, 45, 66, 3, 2, 5], \"title\": \" \" },\n        {\n            \"name\": \"Order ID\",\n            \"info\": [13434, 13324, 54433, 66782, 45938, 97432],\n            \"title\": \" \"\n        }\n        ]\n    }\n]}"
+        },
+        {
+            "attributes": {
+                "type": "Division_Manager__c",
+                "referenceId": "Division_Manager__cRef2"
+            },
+            "Name": "Steve Bereardi",
+            "Color__c": "#3EFFFE",
+            "Tags__c": "Hardware;Europe",
+            "Status__c": "Active",
+            "Stats_Data__c": "{ \"data\":[\n    {\n        \"$row\": \"info\",\n        \"title\": \"Finance and transactions\",\n        \"open\": true,\n        \"info\": [],\n        \"data\": [\n        {\n            \"name\": \"Orders value\",\n            \"info\": [1402, 2230, 2230, 4800, 2200, 2600]\n        },\n        {\n            \"name\": \"Operational Exp.\",\n            \"info\": [0.03, 0.03, 0.05, 0.16, 0.12, 0.12]\n        },\n        {\n            \"name\": \"Cashback value.\",\n            \"info\": [122, 320, 330, 80, 82, 81]\n        }\n        ]\n    },\n    {\n        \"$row\": \"info\",\n        \"title\": \"Aggregated data\",\n        \"open\": true,\n        \"info\": [],\n        \"data\": [\n        {\n            \"name\": \"Mid. Market value\",\n            \"info\": [6.5687, 4.7896, 5.2656, 6.5687, 7.5687, 8.5687],\n            \"minus\": \"- 0.6%\"\n        },\n        {\n            \"name\": \"Market growth\",\n            \"info\": [0.002, -0.002, -0.001, -0.02, -0.1, 0.05],\n            \"minus\": \"- 0.24\"\n        }\n        ]\n    },\n    {\n        \"$row\": \"info\",\n        \"title\": \"Tax and Fees\",\n        \"open\": true,\n        \"info\": [],\n        \"data\": [\n        {\n            \"name\": \"Tax value\",\n            \"info\": [42, 98, 446, 1250, 860, 820],\n            \"title\": \" \"\n        },\n        { \"name\": \"Bank fee\", \"info\": [13, 41, 16, 32, 12, 15], \"title\": \" \" },\n        {\n            \"name\": \"Order ID\",\n            \"info\": [82397, 17823, 93043, 18234, 10923, 19273],\n            \"title\": \" \"\n        }\n        ]\n    }\n]}"
+        }
+    ]
+}
