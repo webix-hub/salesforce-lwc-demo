@@ -1,6 +1,6 @@
 import { updateRecord } from 'lightning/uiRecordApi';
 
-const info = (webix) => {
+const info = (webix, avatars) => {
   return {
     width: 400,
     rows: [
@@ -23,11 +23,12 @@ const info = (webix) => {
         type: "clean",
         rows: [
           {
-            view: "template",
+            view: "template", id:"form_info",
             css:"wbx_info_template",
             height: 300,
             template:
-              "<div class='wbx_photo'></div><div class='wbx_name'>Abigale Lee</div>"
+              `<div class='wbx_photo'><img src='${avatars}/#avatar#.jpg' /></div><div class='wbx_name'>#name#</div>`,
+            data:{ name:"", avatar:"" }
           },
           {
             view: "form", id: "form",

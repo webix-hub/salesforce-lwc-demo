@@ -6,6 +6,7 @@ import { loadStyle, loadScript } from "lightning/platformResourceLoader";
 // Static resources
 import Webix from "@salesforce/resourceUrl/webix71";
 import AppStyles from "@salesforce/resourceUrl/styles";
+import Avatars from "@salesforce/resourceUrl/avatars";
 
 // Controllers
 import getRecords from "@salesforce/apex/SalesData.getRecords";
@@ -21,6 +22,7 @@ function unwrap(data) {
     name: a.Name,
     color: a.Color__c || "",
     country: a.Country__c || "",
+    avatar: a.Avatar__c || "",
     tags: (a.Tags__c || "").split(";"),
     assigned: a.Assigned_To__c || "",
     status: a.Status__c || "",
@@ -67,7 +69,7 @@ export default class ManagerReports extends LightningElement {
 	    rows: [
         list(webix),
         { type:"wide", cols: [
-          grid(webix), form(webix)
+          grid(webix), form(webix, Avatars)
         ]}
       ]
     };

@@ -4,27 +4,28 @@
 .persons_list .webix_list_item {
     background: white;
     margin-right: 20px;
-    border-left: 4px solid #59baff;
+    border-left: 3px solid #1ca1c1;
 }
 .persons_list .webix_list_item.webix_selected {
-    background: #def7ff;
-    border-left: 4px solid #59baff;
+    background: #EDF4F9;
+    border-left: 3px solid #1ca1c1;
 }
 
 .webix_dtable_colrow{
-    background-color: #def7ff !important;
+    background-color: #EDF4F9 !important;
     font-weight: 500;
 }
 
 .wbx_name {
     font-weight: 500;
+    color: #475466;
 }
 .wbx_tag {
-    padding: 4px 10px;
+    padding: 2px 8px;
     margin-right: 10px;
-    background: #d0d0d0;
-    border-radius: 6px;
-    color: #696969;
+    background: #e9ebf2;
+    border-radius: 70px;
+    color: #475466;
 }
 
 .wbx_info_template .wbx_name{
@@ -38,4 +39,7 @@
     height: 180px;
     border-radius: 90px;
     background-color: #666;
+}
+.wbx_info_template .wbx_photo img {
+    border-radius: 90px;
 }

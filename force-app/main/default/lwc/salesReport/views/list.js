@@ -22,9 +22,12 @@ const list = (webix) => {
         var item = this.getItem(id);
         $$("form").setValues(item);
         $$("table_header").setHTML(`${item.name} sales Cases`);
+        $$("form_header").setValue(`${item.name} Profile`);
+
         $$("table_data").clearAll();
         $$("table_data").parse(webix.copy(item.data));
-        $$("form_header").setValue(`${item.name} Profile`);
+
+        $$("form_info").setValues(item);
       }
     },
     data: []

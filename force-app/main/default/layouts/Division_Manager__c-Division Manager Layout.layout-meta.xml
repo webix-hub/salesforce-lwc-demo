@@ -34,6 +34,10 @@
                 <behavior>Edit</behavior>
                 <field>Stats_Data__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Avatar__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
