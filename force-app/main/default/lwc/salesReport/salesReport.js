@@ -74,7 +74,8 @@ export default class ManagerReports extends LightningElement {
       ]
     };
 
-    webix.ui(ui);
+    const topUI = webix.ui(ui);
+    webix.event(window, "resize", () => topUI.adjust());
 
     getRecords().then(d => {
       const list = webix.$$("list");
